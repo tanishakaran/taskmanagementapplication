@@ -98,3 +98,18 @@ li.completed {
   color: #ccc;
   margin-top: 4px;
 }
+#priorityInput {
+  padding: 10px;
+  width: 70%;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.9);
+  color: #222;
+}
+
+#priorityInput option {
+  color: #222;
+}
