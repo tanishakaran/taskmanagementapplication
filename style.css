@@ -98,3 +98,40 @@ li.completed {
   color: #ccc;
   margin-top: 4px;
 }
+#priorityInput {
+  padding: 10px;
+  width: 70%;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.9);
+  color: #222;
+}
+.priority {
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 6px;
+  margin: 4px;
+}
+
+.priority.low {
+  background: lightgreen;
+  color: #064d06;
+}
+
+.priority.medium {
+  background: gold;
+  color: #5a4300;
+}
+
+.priority.high {
+  background: tomato;
+  color: #fff;
+}
+
+#priorityInput option {
+  color: #222;
+}
